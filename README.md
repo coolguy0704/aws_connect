@@ -9,5 +9,6 @@ Fill in the credentials such as user_name, access_key_id, access_secret_key etc.
 
 Execute the script "python aws_connect_mfa.py", the script will parse the json values into a dictionary and store it. 
 
-After the script is exeecuted the script will ask for the MFA value received in the mobile and also the session validity timeout value in seconds.
+After the script is exeecuted it will ask for the MFA value received in the mobile and also the session validity timeout value in seconds.
 
+After the session is established, we can connect to AWS remote instances or AWS S3 etc. from local
