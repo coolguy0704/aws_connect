@@ -74,6 +74,7 @@ def func():
 		print("you made 5 invalid choices so exiting.")
 		#sys.exit(1)
 		
-
-if __name__ == '__main__':
-    func()
+def main():
+	func()
+	
+if __name__ == '__main__': main()
